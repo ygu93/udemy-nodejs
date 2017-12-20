@@ -12,7 +12,11 @@ console.log('Command: ', command);
 console.log('yargs', argv);
 
 if (command === 'add') {
-  notes.addNote(argv.title, argv.body);
+  if(notes.addNote(argv.title, argv.body)){
+    console.log('add successful');
+  }else{
+    console.log('duplicate name');
+  };
 }else if(command === 'list') {
   notes.getAll();
 }else if(command === 'read'){
