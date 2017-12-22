@@ -15,6 +15,7 @@
 
 /node_modules
 /note-app/node_modules
+/weather-app/node_modules
 /yarn-error.log
 
 .byebug_history
