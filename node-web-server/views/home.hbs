@@ -5,12 +5,10 @@
     <title></title>
   </head>
   <body>
-    <h1>{{pageTitle}}</h1>
-    <p>{{welcomeMsg}}</p>
+    {{> header}}
+    <p>{{screamIt welcomeMsg}}</p>
     <p>Some text here</p>
     
-    <footer>
-      <p>Copyright {{currentYear}}</p>
-    </footer>
+    {{> footer}}
   </body>
 </html>
