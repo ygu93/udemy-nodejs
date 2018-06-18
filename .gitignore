@@ -15,7 +15,7 @@
 
 /node_modules
 /note-app/node_modules
-/node-tests/node_nodules
+/node-tests/node_modules/
 /weather-app/node_modules
 /node-web-server/node_modules
 /yarn-error.log
