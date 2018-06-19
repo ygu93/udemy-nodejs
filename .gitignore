@@ -19,5 +19,6 @@
 /weather-app/node_modules
 /node-web-server/node_modules
 /yarn-error.log
+/node-todo-api/node_modules/
 
 .byebug_history
